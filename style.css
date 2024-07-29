@@ -24,44 +24,64 @@ body{background-image: url(images/img2.jpg);
     
 }
 .bg1{
-    background-color: black;
-    margin-left: 300px;
+    background-color:navy;
+    margin-left: 350px;
     top: 1200px;
-    height: 250px;  
+    height: 350px;  
 }
 
 .light{
     position: absolute;
-    margin-left: 50px;
+    margin-right: 373px;
     top: 1590px; 
 } 
 
 .dark{
     position: absolute;
-    margin-left: 900px;
-    top: 1200px;
+    margin-left: 300px;
+    top: 1590px;
 }
 
 .white{ 
      position: absolute;
-    margin-left: 900px;
-    top: 1420px;
+    margin-right: 300px;
+    top: 1820px;
 }
 
 .sky{
     position: absolute;
-    margin-left: 600px;
-    top: 1420px;
+    margin-left: 300px;
+    top: 1820px;
 }
 
-.green{
+ .green{
     position: absolute;
-    margin-left: 300px;
-    top: 1420px;
-}
+    margin-left: 590px;
+    top: 1820px;
+ } 
 
 .blue{
     position: absolute;
-    margin-left: 5px;
-    top: 1420px; 
+    margin-left: 300px;
+    top: 2050px; 
  } 
+
+ .end{
+    position: absolute;
+    top:2070px;
+    margin-right: 373px;
+  }
+
+
+.red{
+  position: absolute;
+  top: 2070px;
+  margin-left:590px;
+}
+
+@media only screen and (min-width:600px) {
+    .img-fluid {
+        height: 500px !important;
+    }
+}
+
