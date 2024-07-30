@@ -21,8 +21,8 @@ body{background-image: url(images/img2.jpg);
     height: 100vh;
     top: 1200px;
     margin-top: 400px;
-    
-}
+    }
+
 .bg1{
     background-color:navy;
     margin-left: 350px;
@@ -46,6 +46,7 @@ body{background-image: url(images/img2.jpg);
      position: absolute;
     margin-right: 300px;
     top: 1820px;
+    
 }
 
 .sky{
@@ -75,13 +76,13 @@ body{background-image: url(images/img2.jpg);
 
 .red{
   position: absolute;
-  top: 2070px;
+  top: 2060px;
   margin-left:590px;
 }
 
-@media only screen and (min-width:600px) {
-    .img-fluid {
-        height: 500px !important;
-    }
-}
+@media only screen and (max-width: 600px) {
+    
+  }   
+
+
 
