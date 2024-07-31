@@ -1,7 +1,7 @@
 body{background-image: url(images/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 
 .text{
@@ -11,10 +11,15 @@ body{background-image: url(images/img2.jpg);
 }
 
 .txt{
-    font-size: 50px;
+    font-size: 65px;
     font-family: Arial;
-    font-weight: 100px;
+    font-weight: 50px;
     -webkit-text-fill-color: azure;
+}
+
+.col{
+    -webkit-text-fill-color: aliceblue;
+    font-family:'Times New Roman';
 }
 
 .bg{
@@ -24,7 +29,7 @@ body{background-image: url(images/img2.jpg);
     }
 
 .bg1{
-    background-color:navy;
+    background-color:black;
     margin-left: 350px;
     top: 1200px;
     height: 350px;  
@@ -71,6 +76,7 @@ body{background-image: url(images/img2.jpg);
     position: absolute;
     top:2070px;
     margin-right: 373px;
+    -webkit-text-fill-color: beige;
   }
 
 
@@ -78,11 +84,12 @@ body{background-image: url(images/img2.jpg);
   position: absolute;
   top: 2060px;
   margin-left:590px;
+  -webkit-text-fill-color: beige;
 }
 
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) { 
     
-  }   
+   }    
 
 
 
